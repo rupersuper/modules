@@ -1,0 +1,29 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "serve": "http-server ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupersuper/modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupersuper/modules/issues"
+  },
+  "homepage": "https://github.com/rupersuper/modules#readme",
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.9.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
